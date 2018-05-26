@@ -1,0 +1,66 @@
+.CryptoList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 1140px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.NoCoinAdded{
+    text-align: center;
+    color: white;
+    padding-top: 30vh;
+}
+
+.CryptoTotal {
+    margin: 30px;
+    width: 220px;
+    height: 150px;
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+.UserTotal {
+    padding-top: 25px;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 125px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 0 0 5px 5px;
+    background-color: rgb(245, 245, 245)
+}
+
+.UserTotal label {
+    padding-left: 4px;
+}
+
+.UserTotal div{
+    padding-left: 4px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1180px) {
+    .CryptoList{
+        width: 855px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .CryptoList{
+        width: 570px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .CryptoList{
+        width: 285px;
+    }
+}

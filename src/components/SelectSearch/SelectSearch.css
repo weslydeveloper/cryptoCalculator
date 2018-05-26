@@ -1,0 +1,12 @@
+.SelectSearch {
+    padding-top: 30px;
+    width: 400px;
+    margin: auto;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .SelectSearch{
+        width: 300px;
+    }
+}
